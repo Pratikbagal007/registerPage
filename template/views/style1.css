@@ -1,0 +1,95 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-field {
+    margin-bottom: 15px;
+  }
+  
+  .input-field i {
+    margin-right: 10px;
+    color: #888;
+  }
+  
+  .input-field input[type="text"],
+  .input-field input[type="email"],
+  .input-field input[type="password"] {
+    width: calc(100% - 25px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input-field input[type="text"]:focus,
+  .input-field input[type="email"]:focus,
+  .input-field input[type="password"]:focus {
+    outline: none;
+    border-color: #2ecc71;
+    /* Change border color on focus */
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #27ae60;
+    /* Darker green color on hover */
+  }
+  
+  .social-text {
+    text-align: center;
+    margin-top: 15px;
+    color: #888;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .social-icon {
+    margin: 0 5px;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #eee;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    background-color: #ddd;
+  }
