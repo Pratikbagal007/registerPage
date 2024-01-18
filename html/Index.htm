@@ -8,6 +8,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="page" href="/registration.hbs"
     <title>Sign in & Sign up Form</title>
   </head>
   <body>
@@ -82,7 +83,8 @@
             <p>
               Sign up to create new account
             </p>
-            <input type="button" onclick="location.href='signUp.html'" value="Sign up" />
+            <button id="signupButton">Sign Up</button>
+
           </div>
           <img src="img/log.svg" class="image" alt="" />
         </div>
@@ -96,6 +98,11 @@
             <button class="btn transparent" id="sign-in-btn">
               Sign in
             </button>
+          
+            function redirectToSignup() {
+              window.location.href = '/signup'; // Replace '/signup' with the URL of your signup page
+          }
+        
           </div>
           <img src="img/register.svg" class="image" alt="" />
         </div>
